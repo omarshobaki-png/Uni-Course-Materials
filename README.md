@@ -28,7 +28,7 @@ on adding javascript to make the sit more functional
 
 
 ## Preview
-![Site Preview](screenshot.png)
+![Site Preview](Screenshot.png)
 
 ---
 
