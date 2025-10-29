@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #808000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: purple;
+}
+
+.header-link a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-link a:hover {
+    background-color: black;
+}
+
+.landing-page {
+    background-color: #808000;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 50px;
+    color: white;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.landing-page-search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 35px;
+    padding: 0 12px;
+    font-size: 15px;
+}
+
+.landing-page-search button {
+    height: 35px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.courses-container {
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+.courses-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-title {
+    font-size: 28px;
+    margin: 10px 0 30px 0;
+}
+
+.courses-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.courses-right span {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.courses-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.og-photo {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-info {
+    display: flex;
+    background-color: #EEEEEE;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.card-name p {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.card-name a {
+    color: purple;
+    text-decoration: none;
+}
