@@ -1,7 +1,8 @@
 # Uni Course Materials Website
+
 Author: Omar Shoubaki
 
---
+---
 A clean, static HTML/CSS website showcasing my first-semester course materials at Birzeit University.  
 The site features an olive-green theme, responsive layout, and direct access to Google Drive folders for each subject.
 
